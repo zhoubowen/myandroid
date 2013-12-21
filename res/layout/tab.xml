@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/tab_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        >
+        <EditText 
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入搜索关键字..."
+			android:textSize="18px"            
+            />
+        <Button 
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/tab_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <AnalogClock 
+            android:id="@+id/myClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/tab_sex"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+        <RadioGroup 
+            android:id="@+id/sex"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton 
+                android:id="@+id/male"
+                android:checked="true"
+                android:text="性别：男"
+                />
+             <RadioButton 
+                android:id="@+id/female"
+                android:checked="true"
+                android:text="性别：女"
+                />
+            
+        </RadioGroup>
+        
+    </LinearLayout>
+
+    
+</LinearLayout>
