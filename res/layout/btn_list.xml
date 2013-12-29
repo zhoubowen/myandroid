@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/intentDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iintent传递" />
+
+    <Button
+        android:id="@+id/staticDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="静态变量传值" />
+
+    <Button
+        android:id="@+id/clipDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="剪贴版传值" />
+    
+    <Button
+        android:id="@+id/appDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全局变量传值" />
+
+</LinearLayout>
